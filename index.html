@@ -3,9 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Лабораторна робота 1</title>
+  <title>Лабораторна 2 - Головна / Інтернет-магазин одягу</title> 
+  <meta name="description" content="Сучасний онлайн-магазин стильного одягу нові колекції та великий асортимент." />
+  <link rel="icon" href="assets/images/favicon.ico" />
 </head>
 <body>
-  <p>Виконала студентка групи F2.25-c Горб Каміла. Перевірив викладач Ярослав Кривий</p>
+  <a class="skip-link" href="#main">Перейти до основного контенту</a>
+
+  <header class="site-header">
+    <h1 id="site-title">Магазин стильного одягу</h1>
+    <nav class="site-nav" aria-label="Головна навігація">
+      <ul>
+        <li><a href="index.html" aria-current="page">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="hero-article">
+      <header>
+        <h2>Новини колекції</h2>
+      </header>
+      <p>Презентуєм новинки до повсякденного одягу.</p>
+      <figure>
+        <img src="https://i.pinimg.com/236x/df/13/1e/df131e436b0f4bf0da836143d890e07e.jpg" alt="Фото нової колекції одягу" width="640" />
+        <figcaption>Сумка весняно-осіннього сезону</figcaption>
+      </figure>
+    </article>
+
+    <section aria-labelledby="benefits-title" class="benefits">
+      <h3 id="benefits-title">Наші переваги</h3>
+      <ul class="advantages">
+        <li>Натуральні преміальні тканини та фурнітура</li>
+        <li>Швидка доставка по Україні за 1-2 дні</li>
+        <li>Простий обмін та повернення товару протягом 14 днів</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="services-title" class="services">
+      <h3 id="services-title">Популярні категорії товарів</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Категорія</th>
+            <th scope="col">Опис</th>
+            <th scope="col">Ціна від</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Оверсайз худі</td>
+            <td>Щільна бавовна з флісом та капюшоном</td>
+            <td>1 200 ₴</td>
+          </tr>
+          <tr>
+            <td>Джинси Straight Fit</td>
+            <td>Класичний прямий крій, 100% денім</td>
+            <td>1 650 ₴</td>
+          </tr>
+          <tr>
+            <td>Базові футболки</td>
+            <td>Комплект з трьох нейтральних кольорів</td>
+            <td>850 ₴</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <aside class="sidebar" aria-label="Додаткова інформація">
+    <h3>Корисні ресурси та тренди</h3>
+    <ul>
+      <li><a href="https://vogue.ua/" target="_blank" rel="noopener noreferrer">
+        Vogue Ukraine головні модні тренди сезону
+      </a></li>
+    </ul>
+  </aside>
+
+  <footer class="site-footer">
+    <p>&copy; Група 6.F2.25-c</p>
+  </footer>
 </body>
 </html>
